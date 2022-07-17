@@ -11,5 +11,4 @@ main()
 {
   fragModelPos = inputPosition;
   gl_Position = MVP*vec4(inputPosition, 1);
-  
 }
